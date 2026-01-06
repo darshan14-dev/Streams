@@ -9,6 +9,7 @@ class Stream{
         List<Integer> nums = Arrays.asList(1,44,55,2,6,3,44,55,66,77,99,88,0,1,3);
 
        // 1) Find max number
+
         
         int maxNum = nums.stream()
                 .max(Comparator.naturalOrder())
